@@ -1,7 +1,9 @@
 ## :four::two: pipex project  
 <hr style="border:2px solid gray"> </hr>  
 The aim of this project is to reproduce the shell behavior of redirecting STDIN and STDOUT to files and emulating pipes.  
-Execute command make and type the command listed below. The arguments will be processed as same as < infile cmd1 | cmd2 > outfile on the shell.  
+Execute command make and type the command listed below.  
+The arguments will be processed as same as < infile cmd1 | cmd2 > outfile on the shell.  
+
 ```./pipex infile cmd1 cmd2 outfile ```  
 
 ### Objectives :computer:  
