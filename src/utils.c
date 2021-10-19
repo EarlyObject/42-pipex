@@ -18,12 +18,9 @@ char
 	char	**paths_arr;
 	int		i;
 
-	if (!envp || !envp[i])
-		return (NULL);
 	i = 0;
 	if (!envp || !envp[i])
 		return (NULL);
-	i = 0;
 	while (envp[i] && ft_strncmp(envp[i], "PATH=", 5))
 		i++;
 	paths_arr = ft_split(envp[i] + 5, ':');
